@@ -105,19 +105,19 @@ fn main() {
     // Another way to have a collection of multiple values is with an array. Unlike a tuple, every element of an array must have the same type.
     // arrays in Rust have a fixed length.
 
-    let a = [1, 2, 3, 4, 5];
-    let months = ["January", "February", "March", "April", "May", "June", "July",
+    let _a = [1, 2, 3, 4, 5];
+    let _months = ["January", "February", "March", "April", "May", "June", "July",
               "August", "September", "October", "November", "December"];
     
     //type i32, with len 5
-    let a: [i32; 5] = [1, 2, 3, 4, 5];
+    let _a: [i32; 5] = [1, 2, 3, 4, 5];
     
     // You can also initialize an array to contain the same value for each element
     let a = [3; 5];//let a = [3, 3, 3, 3, 3];
 
     // You can access elements of an array using indexing
-    let first = a[0];
-    let second = a[1];
+    let _first = a[0];
+    let _second = a[1];
 
 
 
